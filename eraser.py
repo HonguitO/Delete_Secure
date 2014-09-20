@@ -155,7 +155,6 @@ def borrar_hdd():
         borrar_hdd()
 
 def liberar_swap():
-<<<<<<< HEAD
     #funcion para liberar la memoria SWAP
     os.system("clear")
     banner_menu()
@@ -170,19 +169,3 @@ def liberar_swap():
 #####llamada al funcion menu principal.....:S
 if __name__ == '__main__':
     menu_principal()
-=======
-	"""funcion para liberar la memoria SWAP"""
-	os.system("clear")
-	banner_menu()
-	print "--------LISTADO DE SWAP--------"
-	os.system("sudo swapon -s")
-	swapdir = raw_input("INGRESE EL PATH DE LA PARTICION: ")
-	os.system("sudo sswap -v %s" % swapdir)
-	print "MEMORIA SWAP LIBERADA... :D"
-	sleep(2)
-	os.system("clear")
-	menu_principal()
-#####llamada al funcion menu principal.....:S	
-if __name__ == '__main__':
-    menu_principal()
->>>>>>> e330fead88e5c498694248a8dccb4b671e3c51cc
