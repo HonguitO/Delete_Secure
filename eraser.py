@@ -161,4 +161,5 @@ def liberar_swap():
 	os.system("clear")
 	menu_principal()
 #####llamada al funcion menu principal.....:S	
-menu_principal()
+if __name__ == '__main__':
+    menu_principal()
