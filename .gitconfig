@@ -1,0 +1,8 @@
+[user]
+	name = HonguitO
+	email = diegosnead@openmailbox.org
+[color]
+	status = auto
+	branch = auto
+	diff = auto
+	interactive = auto
